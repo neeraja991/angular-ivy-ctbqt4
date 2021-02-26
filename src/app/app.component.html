@@ -1,0 +1,28 @@
+<div class="container">
+
+		<h1>Table using JSON Mock SERVER API</h1>
+		<table id="employees">
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Name</th>
+					<th>Expertisefield</th>
+					<th>CountryofBirth</th>
+					<th>DOJ</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr *ngFor="let employee of employees">
+					<th>{{employee.id}}</th>
+					<th>
+						{{employee.Name}}</th>
+					<th>
+						{{employee.Expertisefield}}</th>
+					<th>
+						{{employee.CountryofBirth}}</th>
+					<th>
+						{{employee.DOJ}}</th>
+				</tr>
+			</tbody>
+		</table>
+</div>

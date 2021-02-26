@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+  color: rgb(18, 145, 145);
+}
+
+#employees {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 6px;
+}
+
+#employees td,
+#employees th {
+  border: 1px solid rgb(221, 221, 221);
+  padding: 8px;
+}
+
+#employees tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#employees tr:hover {
+  background-color: #ddd;
+}
+
+#employees thead tr {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #19801d;
+  color: white;
+}
